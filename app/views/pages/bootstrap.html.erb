@@ -1,0 +1,36 @@
+<div class="container master-container">
+    <ul class="breadcrumb">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "setup", setup_path %></li>
+        <li><%= link_to "bootstrap", bootstrap_path %></li>
+        <li><%= link_to "devise", devise_path %></li>
+    </ul>
+    <div class='alert alert-info fade in' data-alert='alert'>
+      <h3>
+        <strong>
+          <a href='http://getbootstrap.com/' target='_blank'>Bootstrap<a/>
+        </strong>
+      </h3>
+      <p><a href='https://rubygems.org/gems/bootstrap-sass/versions/3.3.5' target='_blank'>bootstrap-sass gem</a></p>
+    </div>
+
+    <div class='row'>
+  <h3>How to add bootstrap to a rails application.</h3>
+</div>
+
+<div class='row'>
+  <h4>Configuring your Rails app with Simple Form and Bootstrap</h4>
+  <ol>
+    <li>Create your new Rails application: <code>rails new my_new_app</code></li>
+    <li>Open the generated <a href='' target='_blank'>Gemfile</a> and add <code>gem 'bootstrap-sass'</code> <a href='https://github.com/twbs/bootstrap-sass' target='_blank'>(link)</a> <a href='https://github.com/twbs/bootstrap-sass' target='_blank'>(documentation)</a></li>
+    <li>Install the dependencies: <code>bundle install</code></li>
+    <li>Install the Simple Form, using the --bootstrap option: <code>rails generate simple_form:install --bootstrap</code></li>
+    <li>Now you have a new Rails application using Simple Form and configured to use Bootstrap</li>
+  </ol>
+</div>
+
+<div class='row'>
+  <h4>Building your first form</h4>
+
+  <p>Example: Lets build the following form.</p>
+</div>
